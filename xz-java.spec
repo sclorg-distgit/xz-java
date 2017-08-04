@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}xz-java
 Version:        1.6
-Release:        3.1%{?dist}
+Release:        3.2%{?dist}
 Summary:        Java implementation of XZ data compression
 License:        Public Domain
 URL:            http://tukaani.org/xz/java.html
@@ -52,6 +52,9 @@ ant maven
 %doc COPYING
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.6-3.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.6-3.1
 - Automated package import and SCL-ization
 
